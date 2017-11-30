@@ -30,3 +30,21 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 *************************************************************************************
 Historique des commandes utiles
 
+Creer une application
+  ng new angular-tour-of-heroes //créer un sous repertoire
+
+Démarrer l'application
+  ng serve --open   //permet de lancer d'ouvrir une fenetre dans le navigateur.
+
+creation d'un composant
+  ng generate component heroes  //creation d'un component dans un sous repertoire "heroes"
+  ng generate component hero-detail //idem
+
+Creation d'un service
+    ng generate service hero
+
+    ng generate service message --module=app
+      //The --module=app option tells the CLI to provide this service in the AppModule
+
+Creation d'un module pour le routing
+  ng generate module app-routing --flat --module=app
