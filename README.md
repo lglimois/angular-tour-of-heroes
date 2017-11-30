@@ -48,3 +48,9 @@ Creation d'un service
 
 Creation d'un module pour le routing
   ng generate module app-routing --flat --module=app
+
+Generation du livrable
+  ng build
+
+  Copier du repertoire ./dist dans la web app dans .\src\main\resources\static
+  puis builder normalement l'appli (ex. spring boot)
